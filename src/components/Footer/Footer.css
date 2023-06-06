@@ -1,0 +1,59 @@
+#footer {
+  width: 100%;
+  height: 277px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#box1 {
+  width: 1038px;
+  border-bottom: 0.5px solid #8a8d91;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+#box1 a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8a8d91;
+  text-decoration: none;
+}
+
+#box1 #button {
+  width: 33px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f2f5;
+  border-radius: 5px;
+  border: 1px solid #8a8d91;
+}
+
+#box2 {
+  width: 1138px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 23px;
+}
+
+#box2 a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8a8d91;
+  text-decoration: none;
+}
