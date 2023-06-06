@@ -69,3 +69,26 @@
   padding-top: 22px;
   border-top: 0.5px solid #8a8d91;
 }
+
+@media screen and (max-width: 500px) {
+  #form {
+    width: 95%;
+  }
+
+  #form input {
+    width: 80%;
+  }
+
+  #form #first {
+    width: 80%;
+  }
+
+  #form div{
+    width: 80%;
+    display: flex;
+  }
+
+  #form #second {
+    width: 100%;
+  }
+}
